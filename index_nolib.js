@@ -1,6 +1,6 @@
 const https = require('https');
 
-const region= process.env.region || 'eu-west-1';
+const region= process.env.region || 'us-east-1';
 const service= process.env.service || 'AMAZON';
 
 console.log(`Fetching IP ranges for Region: ${region} & Service: ${service}`);
